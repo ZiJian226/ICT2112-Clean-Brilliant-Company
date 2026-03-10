@@ -362,3 +362,14 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /CleanBrilliant/appsettings.json
+/CleanBrilliant/Controllers/RestockController.cs
+/CleanBrilliant/DataSource/EF/Configurations
+/CleanBrilliant/DataSource/Gateways/RestockGateway.cs
+/CleanBrilliant/DataSource/EF/AppDbContext.cs
+/CleanBrilliant/Domain/BoundaryInterface/IRestockGateway.cs
+/CleanBrilliant/Domain/Control/RestockManager.cs
+/CleanBrilliant/Domain/DomainInterface/IRestockQuery.cs
+/CleanBrilliant/Domain/Entity/InboundStock.cs
+/CleanBrilliant/Domain/Entity/RestockOrder.cs
+/CleanBrilliant/DTO/RestockDTO.cs
+/CleanBrilliant/DataSource/EF/AppDbContext.cs

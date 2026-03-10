@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CleanBrilliant.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 
-namespace CleanBrilliantProject.Data.Ef
+namespace CleanBrilliantProject.Data.DbCon
 {
     public class AppDbContext : DbContext
     {

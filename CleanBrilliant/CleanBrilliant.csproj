@@ -8,6 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DataSource\EF\**" />
+    <Content Remove="DataSource\EF\**" />
+    <EmbeddedResource Remove="DataSource\EF\**" />
+    <None Remove="DataSource\EF\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\RestockController.cs" />
+    <Compile Remove="DataSource\Gateways\RestockGateway.cs" />
+    <Compile Remove="Domain\BoundaryInterface\IRestockGateway.cs" />
+    <Compile Remove="Domain\Control\RestockManager.cs" />
+    <Compile Remove="Domain\DomainInterface\IRestockQuery.cs" />
+    <Compile Remove="Domain\Entity\InboundStock.cs" />
+    <Compile Remove="Domain\Entity\RestockOrder.cs" />
+    <Compile Remove="DTO\RestockDTO.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.3">
       <PrivateAssets>all</PrivateAssets>
